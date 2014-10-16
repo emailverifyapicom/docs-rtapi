@@ -15,7 +15,7 @@ Email Verification API
 .. _Spam Traps: http://en.wikipedia.org/wiki/Spamtrap
 
 Features
-~~~~~~~~
+--------
 
 .. toctree::
     :maxdepth: 2
