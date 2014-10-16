@@ -1,6 +1,6 @@
 Welcome to Email Verification API
 =================================
-`emailverifyapi`_ solves the challenging problem of how to validate and verify email addresses in near real time.
+`emailverifyapi`_ solves the challenging problem of how verify email addresses in near real time.
 
 .. _emailverifyapi: https://api.emailverifyapi.com
 
@@ -35,3 +35,9 @@ Integration
 	:maxdepth: 2
 
 	integration
+	
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`search`	
