@@ -3,9 +3,9 @@
 .. _Disposable Email Addresses: http://en.wikipedia.org/wiki/Disposable_email_address
 
 Features
---------
+========
 What is does
-~~~~~~~~~~~~
+------------
 `emailverifyapi`_ is used to check email addresses in real-time. Not only are syntax and domain checked, but that the user mailbox is available too. This is the only way to know for sure if an email address is valid.
 
 Additionally identified as part of the email verification process is extra information including:
@@ -15,7 +15,7 @@ Additionally identified as part of the email verification process is extra infor
 
 
 Possible applications for the email verification API
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------
 * If you operate a lead generation web site, blog or forum make it harder for users to sign up with false emails.
 * For e-commerce checkouts, make sure customers receive their order notifications by preventing invalid emails from being entered.
 * If your call centre takes email addresses as part of the customer contact data, real-time verification can greatly reduce the amount of incorrectly keyed emailed addresses.
@@ -24,7 +24,7 @@ Possible applications for the email verification API
 
 
 How it does it
-~~~~~~~~~~~~~~
+--------------
 Email addresses are verified using various filters and processes. As a high level overview, an email address submitted for verification goes thorough the following filters:
 
 +---------------+---------------------+---------------------------------+---------------------------------------------------------------------+
