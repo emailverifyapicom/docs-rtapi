@@ -67,7 +67,34 @@ Status Codes
 	:maxdepth: 2
 	
 	status-codes
+
+Integration Examples
+--------------------	
+
+Server Examples
+^^^^^^^^^^^^^^^
+
+.. 	toctree::
+	:maxdepth: 2
 	
+	integration/php
+	integration/c-sharp
+	integration/vb-net
+	integration/java
+	integration/python
+	integration/perl
+
+Client Examples
+^^^^^^^^^^^^^^^
+
+.. 	toctree::
+	:maxdepth: 2
+	
+	integration/jquery-domain-acl
+	integration/jquery-key
+	integration/angular-key
+	integration/curl
+
 Indices and tables
 ==================
 
