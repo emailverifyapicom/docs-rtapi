@@ -2,9 +2,9 @@ jQuery (domain ACL)
 ===================
 .. code:: html
 
-	<!DOCTYPE html>
+    <!DOCTYPE html>
 
-	<!--
+    <!--
     *******************************************************************************************    
     *   Company:
     *   (c) 2014, emailverifyapi.com (https://api.emailverifyapi.com)
@@ -137,4 +137,4 @@ jQuery (domain ACL)
 			</script>
 		</body>
 	</html>
-	
+

@@ -3,9 +3,9 @@ AngularJS (license key)
 
 .. code:: html
 	
-	<!DOCTYPE html>
+    <!DOCTYPE html>
 
-	<!--
+    <!--
     *******************************************************************************************
     *   Company:
     *   (c) 2014, emailverifyapi.com (https://api.emailverifyapi.com)

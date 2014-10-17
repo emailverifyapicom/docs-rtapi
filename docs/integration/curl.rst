@@ -3,7 +3,7 @@ CURL
 
 .. code:: 
 
-	*******************************************************************************************
+    *******************************************************************************************
     *   Company:
     *   © 2014, emailverifyapi.com (https://api.emailverifyapi.com)
     *
@@ -29,5 +29,5 @@ CURL
     *   Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
     *******************************************************************************************
 
-	curl -i -H "Accept: application/json" "http://api.emailverifyapi.com/api/a/v1?email=EMAIL_ADDRESS&key=YOUR_API_KEY"	
+    curl -i -H "Accept: application/json" "http://api.emailverifyapi.com/api/a/v1?email=EMAIL_ADDRESS&key=YOUR_API_KEY"	
 	
