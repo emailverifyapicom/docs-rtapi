@@ -4,6 +4,14 @@ Welcome to Email Verification API
 
 .. _emailverifyapi: https://api.emailverifyapi.com
 
+Product Overview
+----------------
+
+.. 	toctree::
+	:maxdepth: 2
+
+	product-overview
+	
 Features
 --------
 
@@ -11,6 +19,14 @@ Features
 	:maxdepth: 2
 
 	features
+
+Technical Specification
+-----------------------
+
+.. 	toctree::
+	:maxdepth: 2
+
+	technical-spec
 	
 Installation
 ------------
@@ -35,6 +51,22 @@ Integration
 	:maxdepth: 2
 
 	integration
+	
+FAQs
+----
+
+.. 	toctree::
+	:maxdepth: 2
+	
+	frequently-asked-questions
+
+Status Codes
+------------
+
+.. 	toctree::
+	:maxdepth: 2
+	
+	status-codes
 	
 Indices and tables
 ==================
