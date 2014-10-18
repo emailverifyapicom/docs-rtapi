@@ -1,5 +1,9 @@
 jQuery (domain ACL)
 ===================
+
+.. note:: 	Demonstrates how to call a :term:`RESTful` service @ //api.emailverifyapi.com/api/b/v1
+			using jQuery, client side only calls.
+
 .. code-block:: html
 
     <!DOCTYPE html>

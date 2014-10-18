@@ -4,6 +4,14 @@ Welcome to Email Verification API
 =================================
 `emailverifyapi.com`_ solves the challenging problem of how verify email addresses in near real time.
 
+Quick Start
+-----------
+
+.. 	toctree::
+	:maxdepth: 2
+
+	quickstart
+
 Product Overview
 ----------------
 
@@ -36,8 +44,8 @@ Installation
 
 	installation
 
-Configuration
--------------
+Configuration And Usage
+-----------------------
 
 .. 	toctree::
 	:maxdepth: 2

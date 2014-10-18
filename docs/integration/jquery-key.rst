@@ -1,5 +1,7 @@
 jQuery (license key)
 ====================
+.. note:: 	Demonstrates how to call a :term:`RESTful` service @ //api.emailverifyapi.com/api/a/v1
+			using jQuery using client side only calls
 
 .. code-block:: html
 
