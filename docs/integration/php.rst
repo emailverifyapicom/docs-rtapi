@@ -1,6 +1,6 @@
 PHP
 ===
-.. code:: php
+.. code-block:: php
 	
 	<?php
  

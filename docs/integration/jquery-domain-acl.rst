@@ -1,6 +1,6 @@
 jQuery (domain ACL)
 ===================
-.. code:: html
+.. code-block:: html
 
     <!DOCTYPE html>
 

@@ -1,7 +1,7 @@
 AngularJS (license key)
 =======================
 
-.. code:: html
+.. code-block:: html
 	
     <!DOCTYPE html>
 
