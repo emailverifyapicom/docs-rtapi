@@ -1,14 +1,14 @@
+.. _emailverifyapi.com: https://api.emailverifyapi.com
+
 Product Overview
 ================
-
-.. _emailverifyapi.com: https://api.emailverifyapi.com
 
 Product Description
 -------------------
 `emailverifyapi.com`_ offers data cleansing services specifically for email addresses. Offering a fully cloud based solution, 
 `emailverifyapi.com`_ provides fast, reliable and accurate email verification.
 
-With unrivalled coverage in all areas (including traditionally hard to verify email addresses such as Hotmail and Yahoo), emailverifyapi.com is the natural choice for customers requiring good coverage in their applications for both Business to Business (B2B) and Business to Consumer (B2C) email addresses.
+With unrivalled coverage in all areas (including traditionally hard to verify email addresses such as Hotmail and Yahoo), `emailverifyapi.com`_ is the natural choice for customers requiring good coverage in their applications for both :term:`B2B` and :term:`B2C` email addresses.
 
 Possible Applications for Email Address Verification API
 --------------------------------------------------------
