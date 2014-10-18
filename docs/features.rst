@@ -12,7 +12,7 @@ Fully load balanced and automatic fail-over systems dispersed across multiple da
 
 Fanatical Service Quality Management (SQM)
 ------------------------------------------
-`emailverifyapi`_ operational staff obsesively monitor services to ensure the best possible uptime and coverage.
+`emailverifyapi`_ operational staff obsessively monitor services to ensure the best possible uptime and coverage.
 
 Uptime and functional correctness is actively monitored on a minute by minute basis from multiple data centers dispersed across North America and Europe.
 
@@ -26,7 +26,8 @@ Progressive verification using multiple verification processes including:
  
 Unrivalled Coverage
 -------------------
-With more than 5 years experience and the benefit of owning our own software stack, emailverifyapi.com has refined its services over the years to provide good coverage not only of the easier B2B domains but also the more techically tricky B2C domains including:
+With more than 5 years experience and the benefit of owning our own software stack, emailverifyapi.com has refined its services over the years to provide good coverage not only of the easier B2B domains but also the more technically tricky B2C domains including:
+
  * Hotmail
  * Yahoo
  * AOL
@@ -60,7 +61,7 @@ Key based authentication is typically used for server to server integrations.
 
 Error Correction
 ----------------
-No more “fat finger” syndrome! Our API has an optional feature to remove certain invalid characters such as spaces, slashes etc.
+No more \"fat finger\" syndrome! Our API has an optional feature to remove certain invalid characters such as spaces, slashes etc.
 
 Common Typo Handling
 --------------------
@@ -72,7 +73,7 @@ Every account comes with a secure online portal for customers to view their curr
 
 Thoughtful Versioning
 ---------------------
-Endpoints are “versioned”. This means that emailverifyapi.com can continue to release new functionality without “breaking” existing clients commited to integrating with our systems on legacy endpoints.
+Endpoints are \"versioned\". This means that emailverifyapi.com can continue to release new functionality without \"breaking\" existing clients committed to integrating with our systems on legacy endpoints.
 
 What is does
 ------------
@@ -84,8 +85,8 @@ Additionally identified as part of the email verification process is extra infor
 * `Spam Traps`_.
 
 
-How it does it
---------------
+How it works
+------------
 Email addresses are verified using various filters and processes. As a high level overview, an email address submitted for verification goes thorough the following filters:
 
 +---------------+---------------------+---------------------------------+---------------------------------------------------------------------+

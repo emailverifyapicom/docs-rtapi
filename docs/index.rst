@@ -75,9 +75,3 @@ Integration Examples
 	:maxdepth: 2
 	
 	integration/index
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`	

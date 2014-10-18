@@ -23,15 +23,16 @@ Sending the following parameters :-
 
 Figure 1 - REST Request Variables
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-=========== ========================================================= ==========
- Parameter  Value                                                             
-=========== ========================================================= ==========
-key         your unique API key supplied by us                        required 
-email       the email address to be validated                         required
-correct     **1** (this will remove certain invalid characters).      optional  
-
-            **0** (this will leave the email untouched).                        
-=========== ========================================================= ==========
++-----------+---------------------------------------------------------+----------+
+| Parameter | Value                                                   |          |
++===========+=========================================================+==========+
+| key       | your unique API key supplied by us                      | required |
++-----------+---------------------------------------------------------+----------+
+| email     | the email address to be validated                       | required |
++-----------+---------------------------------------------------------+----------+
+| correct   | |**1** (this will remove certain invalid characters).   | optional |
+|           | |**0** (this will leave the email untouched).           |          |
++-----------+---------------------------------------------------------+----------+
 
 Accessing the API using ACL authentication
 ------------------------------------------
