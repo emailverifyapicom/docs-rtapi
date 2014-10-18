@@ -123,15 +123,29 @@ Email addresses are verified using various filters and processes.
 As a high level overview, an email address submitted for verification 
 goes thorough the following filters:
 
-+---------------+---------------------+---------------------------------+---------------------------------------------------------------------+
-| Filter Name	| Example Pass        | Example Fail                    | Why it Failed                                                       |
-+===============+=====================+=================================+=====================================================================+
-| Syntax        | me@xyzabc.com       | me.xyzabc.com                   | me.xyzabc.com is not a valid email address format                   |
-+---------------+---------------------+---------------------------------+---------------------------------------------------------------------+
-| DNS A         | post@xyzabc.com     | post@xyzabcNO_DNS_A_RECORD.com  | domain has no DNS A record.                                         |
-+---------------+---------------------+---------------------------------+---------------------------------------------------------------------+
-| DNS MX        | post@xyzabc.com     | post@xyzabcNO_DNS_MX_RECORD.com | domain has no MX records meaning that domain has no mail server(s). |
-+---------------+---------------------+---------------------------------+---------------------------------------------------------------------+
-| MailBox       | post@xyzabc.com     | postNoMailBox@xyzabc.com        | Mail box does not exist on the mail server.                         |
-+---------------+---------------------+---------------------------------+---------------------------------------------------------------------+
+Syntax
+	A basic inspection of the systax of the email address to see 
+	if it looks valid. Work is done only using server :abbr:`CPU(Central Processing Unit)` 
+	based on simple pattern matching algorithms.
+	
+DNS A
+	Verifies a domain exists in :term:`DNS`. Domains that do not 
+	exist in :term:`DNS` cannot have mail servers or email boxes.
+	
+	:term:`DNS` checks are performed over the network.
+	
+DNS MX
+	Verify :term:`MX` records using :term:`DNS`. Domains that do not have 
+	:term:`MX` records, have no mail servers and therefore no valid email boxes.
+	
+	:term:`MX` checks are performed over the network.
 
+MailBox
+	Verify email boxes with :term:`SMTP` checks.
+	
+	Connect to mail server and perform :term:`SMTP` 
+	protocol to verify if mail box exists.
+	
+	This is the deepest level of verification. It is 
+	performed over the network.
+	

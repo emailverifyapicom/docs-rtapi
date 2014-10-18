@@ -80,6 +80,15 @@ Glossary
 		it is unlikely that messages sent to DEA addresses will 
 		ever be read.
 
+	ESP
+		**Email Service Provider**
+		
+		A service that sends emails on your behalf.
+		
+		See 
+		`Wikipedia - Email service provider (marketing) <https://en.wikipedia.org/wiki/Email_service_provider_(marketing)>`_ for 
+		more information.
+		
 	Grey Listing
 		A technique used in mail servers as an anti-spam technique.
 		Sometimes also known as \"deferred\", grey listing arbitrarily 

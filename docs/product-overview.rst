@@ -3,6 +3,25 @@
 Product Overview
 ================
 
+Why Email Address Cleansing?
+----------------------------
+Sending emails to duff addresses is never a good idea for many reasons including:
+
+**Damaging the reputation of your :term:`ESP` infrastructure (IP addresses)**
+	Many ESPs will have maximum hard bounce thresholds. Exceed these and your account could be closed.
+	
+**Bad emails in a list negatively affects deliver-ability rates**
+	
+**Processing hard bounces means wasted time**
+	An email sent to a bad or non-existent email address results in a bounce 
+	message coming back. Someone or something (e.g. automated software) 
+	is required to remove the bounces from a email list so as to avoid 
+	sending to bad addresses next time.
+	
+.. tip:: 	Cleansing bad emails from a list using email verification technology 
+			*before* a embarking on an emailing campaign significantly 
+			reduces the above challenges. 
+	
 Product Description
 -------------------
 `emailverifyapi.com`_ offers data cleansing services specifically for email addresses. Offering a fully cloud based solution, 
