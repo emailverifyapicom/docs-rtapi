@@ -15,7 +15,7 @@ Plug your license key into the following
 
 ::
 
-	https://api.emailverifyapi.com/api/a/v1?key=INSERTYOURLICENSEKEY&email=test@tester
+	https://api.emailverifyapi.com/api/a/v1?key=INSERTYOURLICENSEKEY&email=test@tester.com
 	
 Paste the url above into your browser and watch the response come back as follows:
 
