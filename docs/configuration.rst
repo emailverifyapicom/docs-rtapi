@@ -109,3 +109,15 @@ Optionally, you can also use the 'correct' parameter to remove certain invalid c
 Additional Status Information
 -----------------------------
 When an email address is returned with a status of *Bad* or *Unknown* we return the detailed reason as part of the response in the *additionalStatus* value. For a full list of additional status values, please refer to :doc:`status-codes`.
+
+Sandbox
+-------
+A sandbox environment is available to assist customers with testing, evaluation and integration. The sandbox url is:
+
+::
+
+	https://api.emailverifyapi.com:443/api/a/v1/sandbox
+	
+There is no charge for use and your live quota is not affected. No emails are verified in the sandbox and responses are hard coded.
+
+For a full list of hard coded test cases, please see `here <https://docs.google.com/spreadsheets/d/11GPGePUcE9fZAd4L8qKLeoB1mWhWXoiueCdgVgitiKQ/edit?usp=sharing>`_.
