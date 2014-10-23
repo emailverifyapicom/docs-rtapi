@@ -39,3 +39,7 @@ Possible Applications for Email Address Verification API
  * If your call centre takes email addresses as part of the customer contact data, real-time verification can greatly reduce the amount of incorrectly keyed emailed addresses.
  * For software vendors where email addresses are captured as part of the on-boarding process, integrate full email verification as a value-add for your service.
  * With `emailverifyapi.com`_, there is no need any more to take incorrect email addresses and wait for them to bounce!
+ 
+How To Get Started
+------------------
+To get started `request a trial key <https://api.emailverifyapi.com/GetLicense>`_.

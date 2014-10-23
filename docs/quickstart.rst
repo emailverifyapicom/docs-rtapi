@@ -7,7 +7,8 @@ Please follow the steps below in sequence:
 
 1) Get a License Key
 --------------------
-Request a trial key from your reseller.
+`Request a trial key <https://api.emailverifyapi.com/GetLicense>`_.
+
 
 2) Try it!
 ----------

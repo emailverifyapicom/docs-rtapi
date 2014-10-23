@@ -5,7 +5,7 @@ Frequently Asked Questions
 
 How can I get a key?
 --------------------
-Please contact your reseller to request a key. Trial keys are available on request.
+`Click here <https://api.emailverifyapi.com/GetLicense>`_ to request a license key.
 
 How do I call the API?
 ----------------------

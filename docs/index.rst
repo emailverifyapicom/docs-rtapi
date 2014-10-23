@@ -1,5 +1,11 @@
 Welcome to Email Verification API
 =================================
+Our email verification :term:`API` will help your business reduce costs by eliminating bad email 
+addresses from entering your information systems.
+
+Request a Trial License Key
+---------------------------
+To get started, please `request a trial key <https://api.emailverifyapi.com/GetLicense>`_.
 
 Product Overview
 ----------------

@@ -113,6 +113,8 @@ Glossary
 		where simplicity is required and you can keep the key private.
 		An ideal use case for key authentication would be for server 
 		based applications calling the RESTful :term:`API`.
+		
+		`Click here <https://api.emailverifyapi.com/GetLicense>`_ to request a license key.
 	
 	DNS
 		**Domain Name System**
