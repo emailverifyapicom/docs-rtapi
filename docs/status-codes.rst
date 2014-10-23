@@ -102,3 +102,41 @@ Additional Status Codes
 	Successful verification.
 	
 	100% confidence that the mail box exists.
+	
+:TooManyAtSignsFound:
+	Too many '@' signs found in email address.
+
+	Only one '@' character is allowed in email addresses.
+	
+:Unknown:
+	The reason for the verification result is unknown.
+	
+:TransientNetworkFault:
+	A temporary network fault occurred during verification. Please try again later.
+
+	Verification operations on remote mail servers can sometimes fail for a number 
+	of reasons such as loss of network connection, remote servers timing out etc.
+	
+	One other possible cause of a temporary fault is :term:`Grey Listing`.
+
+	These conditions are usually temporary. Retrying verification at a later time 
+	will usually result in a positive response from mail servers.
+
+:PossibleSpamTrapDetected:
+	A possible spam trap email address or domain has been detected.
+
+	Spam traps are email addresses or domains deliberately placed on-line 
+	in order to capture and flag potential spam based operations.
+
+	Our advanced detection heuristics are capable of detecting likely 
+	spam trap addresses or domains known to be associated with spam trap techniques.
+
+	We do not recommend sending emails to addresses identified as associated 
+	with known spam trap behaviour.
+
+	Sending emails to known spam traps or domains will result in your :term:`ESP` 
+	being subjected to email blocks from a :term:`DNS` :term:`Block List`..
+
+	An :term:`ESP` cannot tolerate entries in a :term:`Block List` (as it adversely 
+	affects email deliver-ability for all customers) and will actively refuse 
+	to send emails on behalf of customers with a history of generating entries in a :term:`Block List`.
