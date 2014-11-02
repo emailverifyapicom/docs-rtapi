@@ -88,7 +88,13 @@ Glossary
 		See 
 		`Wikipedia - Email service provider (marketing) <https://en.wikipedia.org/wiki/Email_service_provider_(marketing)>`_ for 
 		more information.
+
+	HTTP
+		**Hypertext Transfer Protocol**
 		
+		See `Wikipedia - Hypertext Transfer Protocol <https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol>`_ for 
+		more information.
+	
 	Grey Listing
 		A technique used in mail servers as an anti-spam technique.
 		Sometimes also known as \"deferred\", grey listing arbitrarily 

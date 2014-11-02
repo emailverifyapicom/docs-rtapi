@@ -3,11 +3,27 @@
 
 Email Verification Response Codes For API V1
 ============================================
+A response is a message consisting of a standard :term:`HTTP` header and body. 
+The body of the message contains the detail of the message (e.g. the :term:`JSON` data with email verification detail). 
+The header of the message contains general :term:`HTTP` information such as :term:`HTTP` status codes.
+
+**Response Body Content**
+
+ * `Main Status Response Codes`_
+ * `Additional Status Codes`_
+ 
+**Response Header**
+
+ * `HTTP Status Codes`_
+
+
+Response Body Content
+---------------------
 
 .. _Main Status Response Codes:
 
 Main Status Response Codes
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 :Ok:
 	Verification passes all checks including Syntax, :term:`DNS`, 
 	:term:`MX`, Mailbox, Deep Server Configuration, :term:`Grey Listing`
@@ -22,7 +38,7 @@ Main Status Response Codes
 .. _Additional Status Codes:
 	
 Additional Status Codes
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 :None:
 	No additional information is available.
 	
@@ -140,3 +156,37 @@ Additional Status Codes
 	An :term:`ESP` cannot tolerate entries in a :term:`Block List` (as it adversely 
 	affects email deliver-ability for all customers) and will actively refuse 
 	to send emails on behalf of customers with a history of generating entries in a :term:`Block List`.
+
+	
+Response Header
+---------------
+
+..	_HTTP Status Codes:
+
+HTTP Status Codes
+^^^^^^^^^^^^^^^^^
+In additional to the application level codes (see `Main Status Response Codes`_ and `Additional Status Codes`_) 
+returned in the :term:`HTTP` message body, :term:`HTTP` status codes are returned in the :term:`HTTP` header.
+
+:200:
+	Call successful.
+	
+:304:
+	The cached copy on the client is up to date. Resource not transferred. Use this with client side 
+	"If-Modified-Since" request for efficient caching. 
+	Caching is available for both :term:`HTTP` and HTTPS options.
+
+:400:
+	Bad request. The server could not understand the request. Perhaps missing a license key or an email to check?
+	Conditions that lead to this error are: No license key supplied, no email address supplied, email address > 255 
+	characters, license key in incorrect format.
+	
+:401:
+	Possible reasons: The provided license key is not valid, the provided license key has expired, 
+	the provided license key is not permitted for use from this domain, 
+	you have reached your quota capacity for this account, 
+	this account has been disabled.
+	
+:500:
+	An error occurred on the server. Possible reasons are: license key validation failed or 
+	a general server fault.
