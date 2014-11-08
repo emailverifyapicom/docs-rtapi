@@ -1,7 +1,12 @@
 .. _emailverifyapi.com: https://api.emailverifyapi.com
+.. _email API demo: https://demo.emailverifyapi.com
 
 Product Overview
 ================
+
+See The Demo
+------------
+See a live version of the `email API demo`_ in action for yourself.
 
 Why Email Address Verification?
 -------------------------------
