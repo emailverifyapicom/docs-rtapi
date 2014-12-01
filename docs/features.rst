@@ -104,7 +104,7 @@ Endpoints are \"versioned\". This means that `emailverifyapi.com`_
 can continue to release new functionality without \"breaking\" 
 existing clients committed to integrating with our systems on legacy endpoints.
 
-What is does
+What it does
 ------------
 `emailverifyapi.com`_ is used to check email addresses in real-time. 
 Not only are syntax and domain checked, but that the user mailbox 
