@@ -108,12 +108,12 @@ Further inspection of the bounced email Non Delivery Report (NDR) headers show s
 			by mx.google.com with ESMTPS id ws5si21632759obb.102.2014.12.06.03.57.28
 			for <my.sending.account@gmail.com>
 			(version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
-			Sat, 06 Dec 2014 03:57:28 -0800 (PST)
+			Fri, 6 Jun 2014 03:57:28 -0800 (PST)
 	Received-SPF: none (google.com: SNT004-OMC2S34.hotmail.com does not designate permitted sender hosts) client-ip=65.55.90.109;
 	Authentication-Results: mx.google.com;
 		   spf=none (google.com: SNT004-OMC2S34.hotmail.com does not designate permitted sender hosts) smtp.mail=
 	Received: from SNT004-MC2F40.hotmail.com ([65.55.90.73]) by SNT004-OMC2S34.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.22751);
-		 Sat, 6 Dec 2014 03:57:28 -0800
+		 Fri, 6 Jun 2014 03:57:28 -0800
 	From: postmaster@hotmail.com
 	To: my.sending.account@gmail.com
 	Date: Fri, 6 Jun 2014 03:57:28 -0800
