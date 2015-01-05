@@ -40,7 +40,13 @@ Main Status Response Codes
 Additional Status Codes
 ^^^^^^^^^^^^^^^^^^^^^^^
 :None:
-	No additional information is available.
+	No additional information is available. 
+	
+	This status differs from a TransientNetworkFault as it should not be retried 
+	(the result will not change).
+	
+	There are a few known reasons for this status code for example the target mx record uses 
+	:term:`Office 365` or a mail provider implementing custom mailbox shutdowns.
 	
 :AtSignNotFound:
 	The required '@' sign is not found in email address.
@@ -137,6 +143,10 @@ Additional Status Codes
 
 	These conditions are usually temporary. Retrying verification at a later time 
 	will usually result in a positive response from mail servers.
+	
+	Please note that setting an infinite retry policy around this status code is 
+	inadvisable as there is no way of knowing when the issue will be resolved within 
+	the target domain or the grey listing resolved, and this may affect your daily quota.
 
 :PossibleSpamTrapDetected:
 	A possible spam trap email address or domain has been detected.

@@ -149,6 +149,14 @@ Glossary
 		
 		The MX is a server responsible for email interchange with a client.
 	
+	Office 365
+		Office 365 mail servers (e.g. x-com.mail.protection.outlook.com) are always configured 
+		with the catch all policy, accepting all emails sent to the domain and redirecting them 
+		to a central email box for manual inspection. Catch all configured servers cannot 
+		respond to requests for email address verification.
+		
+		This does not affect our coverage of Hotmail, Live and Outlook mail boxes.
+	
 	Punycode
 		Punycode is a way to represent Unicode with the limited character 
 		subset of ASCII supported by the Domain Name System.
