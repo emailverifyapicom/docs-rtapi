@@ -69,9 +69,7 @@ Additional Status Codes
 
 	:term:`DEA` addresses should not be regarded as valid for email 
 	send purposes as it is unlikely that messages sent to :abbr:`DEA(Disposable Email Address)` 
-	addresses will ever be read. :abbr:`DEA(Disposable Email Address)` 
-	addresses should not be regarded as valid for email send purposes 
-	as it is unlikely that messages sent to :term:`DEA` addresses will ever be read.
+	addresses will ever be read.
 	
 :MailboxFull:
 	The mailbox is full.
