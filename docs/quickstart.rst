@@ -7,7 +7,7 @@ Please follow the steps below in sequence:
 
 1) Get a License Key
 --------------------
-`Request a trial key <https://api.emailverifyapi.com/GetLicense>`_.
+`Request a trial key <https://api.emailverifyapi.com/GetLicense?s=https%3a%2f%2fdocs-rtapi.readthedocs.org%2fen%2flatest%2fquickstart.html>`_.
 
 
 2) Try it!
