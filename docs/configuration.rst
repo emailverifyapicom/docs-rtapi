@@ -34,7 +34,7 @@ Figure 1 - REST Request Variables
 |           | **0** - this will leave the email untouched.            |          |
 +-----------+---------------------------------------------------------+----------+
 
-.. note:: Need a license key? `Click here <https://api.emailverifyapi.com/GetLicense?s=https%3a%2f%2fdocs-rtapi.readthedocs.org%2fen%2flatest%2fconfiguration.html>`_.
+.. note:: Need a license key? `Click here <https://api.emailverifyapi.com/GetLicense>`_.
 
 Accessing the API using ACL authentication
 ------------------------------------------
