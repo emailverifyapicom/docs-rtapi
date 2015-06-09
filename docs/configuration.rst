@@ -123,3 +123,11 @@ A sandbox environment is available to assist customers with testing, evaluation 
 There is no charge for use and your live quota is not affected. No emails are verified in the sandbox and responses are hard coded.
 
 For a full list of hard coded test cases, please see `here <https://docs.google.com/spreadsheets/d/11GPGePUcE9fZAd4L8qKLeoB1mWhWXoiueCdgVgitiKQ/edit?usp=sharing>`_.
+
+Firewall
+--------
+If you need to enable firewall rules based on IP addresses, you will need to add the following addresses, for ports 80 and 443, to your firewall rules:
+ * 23.96.209.155
+ * 23.98.64.158
+ * 191.235.208.12
+ * 137.117.224.218
