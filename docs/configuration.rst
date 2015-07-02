@@ -1,4 +1,4 @@
-.. _emailverifyapi.com: https://api.emailverifyapi.com
+.. _email-checker.com: https://www.email-checker.com/email-checker-api/
 
 Configuration And Usage
 =======================
@@ -14,7 +14,7 @@ Accessing the API using key authentication
 ------------------------------------------
 Access the :term:`API` at::
 
-	https://api.emailverifyapi.com/api/a/v1?key=yourapikey&email=test@tester.com
+	https://api.email-checker.com/api/a/v1?key=yourapikey&email=test@tester.com
 	
 Sending the following parameters :-
 
@@ -34,14 +34,14 @@ Figure 1 - REST Request Variables
 |           | **0** - this will leave the email untouched.            |          |
 +-----------+---------------------------------------------------------+----------+
 
-.. note:: Need a license key? `Click here <https://api.emailverifyapi.com/GetLicense>`_.
+.. note:: Need a license key? `Click here <https://www.email-checker.com/email-checker-api/#trial_key>`_.
 
 Accessing the API using ACL authentication
 ------------------------------------------
 
 ::
 
-	https://api.emailverifyapi.com/api/b/v1?email=test@tester.com
+	https://api.email-checker.com/api/b/v1?email=test@tester.com
 
 .. note:: For :term:`ACL` based authentication, it is not necessary to include the license key in the request. Other parameters (e.g. 'correct') are supported as in the key based example as in :ref:`figure1`.
 
@@ -74,7 +74,7 @@ The URL passed to the API is :-
 
 ::
 
-	https://api.emailverifyapi.com/api/a/v1?key=yourapikey&email=test@tester.com
+	https://api.email-checker.com/api/a/v1?key=yourapikey&email=test@tester.com
 
 The response would be :-
 
@@ -94,9 +94,9 @@ Optionally, you can also use the 'correct' parameter to remove certain invalid c
 
 ::
 
-	http://api.emailverifyapi.com/api/a/v1?key=yourapikey&email=john99]@gmail.com&correct=1
+	http://api.email-checker.com/api/a/v1?key=yourapikey&email=john99]@gmail.com&correct=1
 
-`emailverifyapi.com`_ will automatically remove the invalid character ']' and send the corrected version through for validation. Example results based on the above API call :-
+`email-checker.com`_ will automatically remove the invalid character ']' and send the corrected version through for validation. Example results based on the above API call :-
 
 ::
 
@@ -118,7 +118,7 @@ A sandbox environment is available to assist customers with testing, evaluation 
 
 ::
 
-	https://api.emailverifyapi.com:443/api/a/v1/sandbox
+	https://api.email-checker.com:443/api/a/v1/sandbox
 	
 There is no charge for use and your live quota is not affected. No emails are verified in the sandbox and responses are hard coded.
 

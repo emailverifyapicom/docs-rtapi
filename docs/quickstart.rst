@@ -7,7 +7,7 @@ Please follow the steps below in sequence:
 
 1) Get a License Key
 --------------------
-`Request a trial key <https://api.emailverifyapi.com/GetLicense>`_.
+`Request a trial key <https://www.email-checker.com/email-checker-api/#trial_key>`_.
 
 
 2) Try it!

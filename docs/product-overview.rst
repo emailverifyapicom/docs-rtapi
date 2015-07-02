@@ -1,12 +1,8 @@
-.. _emailverifyapi.com: https://api.emailverifyapi.com
-.. _email API demo: https://demo.emailverifyapi.com
+.. _email-checker.com: https://www.email-checker.com/email-checker-api/
+.. _request a trial key : https://www.email-checker.com/email-checker-api/#trial_key
 
 Product Overview
 ================
-
-See The Demo
-------------
-See a live version of the `email API demo`_ in action for yourself.
 
 Why Email Address Verification?
 -------------------------------
@@ -32,10 +28,10 @@ Processing hard bounces means wasted time
 	
 Product Description
 -------------------
-`emailverifyapi.com`_ offers data cleansing services specifically for email addresses. Offering a fully cloud based solution, 
-`emailverifyapi.com`_ provides fast, reliable and accurate email verification.
+`email-checker.com`_ offers data cleansing services specifically for email addresses. Offering a fully cloud based solution, 
+`email-checker.com`_ provides fast, reliable and accurate email verification.
 
-With unrivalled coverage in all areas (including traditionally hard to verify email addresses such as Hotmail and Yahoo), `emailverifyapi.com`_ is the natural choice for customers requiring good coverage in their applications for both :term:`B2B` and :term:`B2C` email addresses.
+With unrivalled coverage in all areas (including traditionally hard to verify email addresses such as Hotmail and Yahoo), `email-checker.com`_ is the natural choice for customers requiring good coverage in their applications for both :term:`B2B` and :term:`B2C` email addresses.
 
 Possible Applications for Email Address Verification API
 --------------------------------------------------------
@@ -43,8 +39,8 @@ Possible Applications for Email Address Verification API
  * For e-commerce checkouts, make sure customers receive their order notifications by preventing invalid emails from being entered.
  * If your call centre takes email addresses as part of the customer contact data, real-time verification can greatly reduce the amount of incorrectly keyed emailed addresses.
  * For software vendors where email addresses are captured as part of the on-boarding process, integrate full email verification as a value-add for your service.
- * With `emailverifyapi.com`_, there is no need any more to take incorrect email addresses and wait for them to bounce!
+ * With `email-checker.com`_, there is no need any more to take incorrect email addresses and wait for them to bounce!
  
 How To Get Started
 ------------------
-To get started `request a trial key <https://api.emailverifyapi.com/GetLicense>`_.
+To get started `request a trial key`_.

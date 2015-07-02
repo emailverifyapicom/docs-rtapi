@@ -4,7 +4,7 @@ Technical Specification
 Infrastructure
 --------------
 ========================== ==================================
-Manufacturer               emailverifyapi.com
+Manufacturer               email-checker.com
 Uptime                     > 99.9%
 Response time              >0.2seconds < 8 seconds. Typical response time 0.7 seconds.
 Throughput and concurrency > 100 :abbr:`TPS(Transactions Per Second)`

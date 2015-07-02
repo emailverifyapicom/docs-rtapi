@@ -5,7 +5,7 @@ CURL
 
     *******************************************************************************************
     *   Company:
-    *   © 2014, emailverifyapi.com (https://api.emailverifyapi.com)
+    *   © 2014, email-checker.com (https://www.email-checker.com)
     *
     *   File name:
     *   cURL.txt

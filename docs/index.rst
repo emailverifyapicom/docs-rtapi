@@ -1,13 +1,7 @@
-.. _email API demo: https://demo.emailverifyapi.com
-
 Welcome to Email Verification API
 =================================
 Our email verification :term:`API` will help your business reduce costs by eliminating bad email 
 addresses from entering your information systems.
-
-See the On-line Demonstration
------------------------------
-.. tip::	See a live version of the `email API demo`_ in action for yourself.
 
 Product Overview
 ----------------

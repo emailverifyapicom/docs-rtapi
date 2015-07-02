@@ -2,8 +2,6 @@ AngularJS (license key)
 =======================
 .. note:: 	Demonstrates how to call a :term:`RESTful` service @ //api.emailverifyapi.com/api/a/v1
 			using AngularJS with client side only calls.
-
-.. tip::	See `live demo <https://demo.emailverifyapi.com/Demos/AngularJS_V1_Key>`_
 			
 .. code-block:: html
 	
@@ -12,7 +10,7 @@ AngularJS (license key)
     <!--
     *******************************************************************************************
     *   Company:
-    *   (c) 2014, emailverifyapi.com (https://api.emailverifyapi.com)
+    *   (c) 2014, email-checker.com (https://www.email-checker.com)
     *
     *   File name:
     *   v1_key_acl.html

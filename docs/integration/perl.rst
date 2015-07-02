@@ -5,7 +5,7 @@ PERL
 
     ###########################################################################################
     #   Company:
-    #   (c) 2014, emailverifyapi.com (https://api.emailverifyapi.com)
+    #   (c) 2014, email-checker.com (https://www.email-checker.com)
     #
     #   File name:
     #   Program.pl

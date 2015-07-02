@@ -5,7 +5,7 @@ Python
 
     ###########################################################################################
     #   Company:
-    #   (c) 2014, emailverifyapi.com (https://api.emailverifyapi.com)
+    #   (c) 2014, email-checker.com (https://www.email-checker.com)
     #
     #   Version:
     #   1.0.20140827.0
