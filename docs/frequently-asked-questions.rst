@@ -38,7 +38,7 @@ We have tested, detailed integration examples using a wide range of technologies
 
 How reliable is the API?
 ------------------------
-> 99.9% average availability. See our public `service status page <http://stats.pingdom.com/i9i38nxfqjx7>`_.
+> 99.9% average availability.
 
 Does the system get slower when it's busy?
 ------------------------------------------
