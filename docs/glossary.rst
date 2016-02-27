@@ -120,7 +120,7 @@ Glossary
 		An ideal use case for key authentication would be for server 
 		based applications calling the RESTful :term:`API`.
 		
-		`Click here <https://api.emailverifyapi.com/GetLicense>`_ to request a license key.
+		`Click here <https://www.emailhippo.com/en-US>`_ to request a license key.
 	
 	DNS
 		**Domain Name System**

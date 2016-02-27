@@ -7,7 +7,7 @@ Please follow the steps below in sequence:
 
 1) Get a License Key
 --------------------
-`Request a trial key <https://www.email-checker.com/email-checker-api/#trial_key>`_.
+`Request a trial key <https://www.emailhippo.com/en-US/verify-email-address/api/a>`_.
 
 
 2) Try it!
@@ -16,7 +16,7 @@ Plug your license key into the following
 
 ::
 
-	https://api.emailverifyapi.com/api/a/v1?key=INSERTYOURLICENSEKEY&email=test@tester.com
+	https://api1.27hub.com/api/a/v1?key=INSERTYOURLICENSEKEY&email=test@tester.com
 	
 Paste the url above into your browser and watch the response come back as follows:
 

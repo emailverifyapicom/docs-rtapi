@@ -1,7 +1,7 @@
 jQuery (domain ACL)
 ===================
 
-.. note:: 	Demonstrates how to call a :term:`RESTful` service @ //api.emailverifyapi.com/api/b/v1
+.. note:: 	Demonstrates how to call a :term:`RESTful` service @ //api1.27hub.com/api/a/v1
 			using jQuery, client side only calls.
 			
 .. code-block:: html
@@ -11,7 +11,7 @@ jQuery (domain ACL)
     <!--
     *******************************************************************************************    
     *   Company:
-    *   (c) 2014, email-checker.com (https://www.email-checker.com)
+    *   (c) 2016, emailhippo.com (https://www.emailhippo.com)
     *    
     *   File name:
     *   v1_domain_acl.html
@@ -26,7 +26,7 @@ jQuery (domain ACL)
     *   August 2014
     *    
     *   Description:
-    *   Demonstrates how to call a RESTful service @ //api.emailverifyapi.com/api/b/v1
+    *   Demonstrates how to call a RESTful service @ //api1.27hub.com/api/a/v1
     *   using jQuery, client side only calls.
     *    
     *   This example requires a domain ACL and hosting at specified domain to work correctly.
@@ -38,7 +38,7 @@ jQuery (domain ACL)
 	<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta charset="utf-8" />
-		<title>emailverifyapi.com : Domain Access Control List Sample.</title>
+		<title>emailhippo.com : Domain Access Control List Sample.</title>
 		<style type="text/css">
 			.statusUnknown{ color: #c1c72c;}
 			.statusOk{ color: #009933;}
@@ -49,9 +49,9 @@ jQuery (domain ACL)
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</head>
 		<body>
-			<h1>emailverifyapi.com : email verification demo using domain access control list authentication with jQuery.</h1>
+			<h1>emailhippo.com : email verification demo using domain access control list authentication with jQuery.</h1>
 			<h2>About</h2>
-			<p>This example shows how to perform email verification using just client side scripting and invoking a domain based <abbr title="Access Control List">ACL</abbr> RESTful endpoint at <a href="https://api.emailverifyapi.com" target="_blank">api.emailverifyapi.com</a>.</p>
+			<p>This example shows how to perform email verification using just client side scripting and invoking a domain based <abbr title="Access Control List">ACL</abbr> RESTful endpoint at <a href="https://api1.27hub.com" target="_blank">api1.27hub.com</a>.</p>
 			<h2>How to run this sample</h2>
 			<p>Two things are needed to run this sample:</p>
 			<ol>
@@ -88,7 +88,7 @@ jQuery (domain ACL)
 
 						$('#validationResult').html("verifying...");
 						
-						var emailVerifyApi = '//api.emailverifyapi.com/api/b/v1?email=' + encodeURIComponent(emailText);
+						var emailVerifyApi = '//api1.27hub.com/api/a/v1?email=' + encodeURIComponent(emailText);
 
 						/*execute remote request to perform email verification. Any errors will appear in the developer console (e.g. viewable using Chrome developer tools)*/
 						$.getJSON(emailVerifyApi, {})

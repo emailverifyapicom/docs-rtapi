@@ -1,6 +1,6 @@
 jQuery (license key)
 ====================
-.. note:: 	Demonstrates how to call a :term:`RESTful` service @ //api.emailverifyapi.com/api/a/v1
+.. note:: 	Demonstrates how to call a :term:`RESTful` service @ //api1.27hub.com/api/a/v1
 			using jQuery using client side only calls
 			
 .. code-block:: html
@@ -10,7 +10,7 @@ jQuery (license key)
     <!--
     *******************************************************************************************
     *   Company:
-    *   (c) 2014, www.email-checker.com.com (https://www.email-checker.com)
+    *   (c) 2016, www.emailhippo.com.com (https://www.emailhippo.com)
     *
     *   File name:
     *   v1_key_acl.html
@@ -25,7 +25,7 @@ jQuery (license key)
     *   August 2014
     *
     *   Description:
-    *   Demonstrates how to call a RESTful service @ //api.emailverifyapi.com/api/a/v1
+    *   Demonstrates how to call a RESTful service @ //api1.27hub.com/api/a/v1
     *   using jQuery using client side only calls.
     *
     *   This example requires a valid key to work correctly.
@@ -37,7 +37,7 @@ jQuery (license key)
 	<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta charset="utf-8" />
-		<title>emailverifyapi.com : License Key Sample.</title>
+		<title>27hub.com : License Key Sample.</title>
 		<style type="text/css">
 			.statusUnknown {
 				color: #c1c72c;
@@ -61,9 +61,9 @@ jQuery (license key)
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</head>
 	<body>
-		<h1>emailverifyapi.com : email verification demo using simple key authentication with jQuery.</h1>
+		<h1>27hub.com : email verification demo using simple key authentication with jQuery.</h1>
 		<h2>About</h2>
-		<p>This example shows how to perform email verification using just client side scripting and invoking a simple key based RESTful endpoint at <a href="https://api.emailverifyapi.com" target="_blank">api.emailverifyapi.com</a>.</p>
+		<p>This example shows how to perform email verification using just client side scripting and invoking a simple key based RESTful endpoint at <a href="https://api.27hub.com" target="_blank">api.27hub.com</a>.</p>
 		<h2>How to run this sample</h2>
 		<p>This page can be hosted anywhere (i.e. any web host or platform). The only thing needed is a valid license key.</p>
 		<h2>Key features</h2>
@@ -105,10 +105,10 @@ jQuery (license key)
 						
 						$('#validationResult').html("verifying...");
 
-						var emailVerifyApi = '//api.emailverifyapi.com/api/a/v1?email=' + encodeURIComponent(emailText) + '&key=' + keyText;
+						var 27hub = '//api1.27hub.com/api/a/v1?email=' + encodeURIComponent(emailText) + '&key=' + keyText;
 
 						/*execute remote request to perform email verification. Any errors will appear in the developer console (e.g. viewable using Chrome developer tools)*/
-						$.getJSON(emailVerifyApi, {})
+						$.getJSON(27hub, {})
 							.done(function (data) {
 								reportResult(data);
 							})

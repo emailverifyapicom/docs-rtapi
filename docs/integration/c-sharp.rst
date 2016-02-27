@@ -21,7 +21,7 @@ C#
 		/// <summary>
 		/// The api url.
 		/// </summary>
-		private const string ApiUrl = @"http://api.emailverifyapi.com/api/a/v1";
+		private const string ApiUrl = @"http://api1.27hub.com/api/a/v1";
 		/// <summary>
 		/// 0 = ApiUrl
 		/// 1 = Email address to query

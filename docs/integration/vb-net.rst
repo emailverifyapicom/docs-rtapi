@@ -16,7 +16,7 @@ VB.net
 		''' <summary>
 		''' The api url.
 		''' </summary>
-		Private Const ApiUrl As String = "http://api.emailverifyapi.com/api/a/v1"
+		Private Const ApiUrl As String = "http://api1.27hub.com/api/a/v1"
 		 
 		''' <summary>
 		''' 0 = ApiUrl

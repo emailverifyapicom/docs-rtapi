@@ -5,7 +5,7 @@ CURL
 
     *******************************************************************************************
     *   Company:
-    *   © 2014, email-checker.com (https://www.email-checker.com)
+    *   © 2016, emailhippo.com (https://www.emailhippo.com)
     *
     *   File name:
     *   cURL.txt
@@ -20,7 +20,7 @@ CURL
     *   August 2014
     *
     *   Description:
-    *   Demonstrates how to call a RESTful service @ //api.emailverifyapi.com/api/a/v1
+    *   Demonstrates how to call a RESTful service @ //api1.27hub.com/api/a/v1
     *   using cURL
     *
     *   This example requires a valid key to work correctly.
@@ -29,5 +29,5 @@ CURL
     *   Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
     *******************************************************************************************
 
-    curl -i -H "Accept: application/json" "http://api.emailverifyapi.com/api/a/v1?email=EMAIL_ADDRESS&key=YOUR_API_KEY"	
+    curl -i -H "Accept: application/json" "http://api1.27hub.com/api/a/v1?email=EMAIL_ADDRESS&key=YOUR_API_KEY"	
 	

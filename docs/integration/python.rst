@@ -5,7 +5,7 @@ Python
 
     ###########################################################################################
     #   Company:
-    #   (c) 2014, email-checker.com (https://www.email-checker.com)
+    #   (c) 2016, emailhippo.com (https://www.emailhippo.com)
     #
     #   Version:
     #   1.0.20140827.0
@@ -17,7 +17,7 @@ Python
     #   August 2014
     #
     #   Description:
-    #   Demonstrates how to call a RESTful service @ //api.emailverifyapi.com/api/a/v1
+    #   Demonstrates how to call a RESTful service @ //api1.27hub.com/api/a/v1
     #   using Python
     #
     #   This example requires a valid key to work correctly.
@@ -30,7 +30,7 @@ Python
 	import urllib.request
 
 	# The url for the service
-	ApiUrl = "http://api.emailverifyapi.com/api/a/v1"
+	ApiUrl = "http://api1.27hub.com/api/a/v1"
 
 	# The format  of the full query string
 	QueryFormatString = "{0}?email={1}&key={2}"

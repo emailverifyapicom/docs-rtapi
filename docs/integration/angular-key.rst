@@ -1,6 +1,6 @@
 AngularJS (license key)
 =======================
-.. note:: 	Demonstrates how to call a :term:`RESTful` service @ //api.emailverifyapi.com/api/a/v1
+.. note:: 	Demonstrates how to call a :term:`RESTful` service @ //api1.27hub.com/api/a/v1
 			using AngularJS with client side only calls.
 			
 .. code-block:: html
@@ -10,7 +10,7 @@ AngularJS (license key)
     <!--
     *******************************************************************************************
     *   Company:
-    *   (c) 2014, email-checker.com (https://www.email-checker.com)
+    *   (c) 2016, emailhippo.com (https://www.emailhippo.com)
     *
     *   File name:
     *   v1_key_acl.html
@@ -25,7 +25,7 @@ AngularJS (license key)
     *   August 2014
     *
     *   Description:
-    *   Demonstrates how to call a RESTful service @ //api.emailverifyapi.com/api/a/v1
+    *   Demonstrates how to call a RESTful service @ //api1.27hub.com/api/a/v1
     *   using AngularJS with client side only calls.
     *
     *   This example requires a valid key to work correctly.
@@ -38,7 +38,7 @@ AngularJS (license key)
 	<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta charset="utf-8" />
-		<title>emailverifyapi.com : License Key Sample.</title>
+		<title>emailhippo.com : License Key Sample.</title>
 		<style type="text/css">
 			.statusUnknown {
 				color: #c1c72c;
@@ -61,9 +61,9 @@ AngularJS (license key)
 	</head>
 	<body>
 		
-		<h1>emailverifyapi.com : email verification demo using simple key authentication with AngularJS.</h1>
+		<h1>emailhippo.com : email verification demo using simple key authentication with AngularJS.</h1>
 		<h2>About</h2>
-		<p>This example shows how to perform email verification using just client side scripting and invoking a simple key based RESTful endpoint at <a href="https://api.emailverifyapi.com" target="_blank">api.emailverifyapi.com</a>.</p>
+		<p>This example shows how to perform email verification using just client side scripting and invoking a simple key based RESTful endpoint at <a href="https://api1.27hub.com" target="_blank">api1.27hub.com</a>.</p>
 		<h2>How to run this sample</h2>
 		<p>This page can be hosted anywhere (i.e. any web host or platform). The only thing needed is a valid license key.</p>
 		<h2>Key features</h2>
@@ -124,7 +124,7 @@ AngularJS (license key)
 				$scope.doVerify = function () {
 					resetMessage();
 					$scope.showValidating = true;
-					var emailVerifyApi = '//api.emailverifyapi.com/api/a/v1?email=' + encodeURIComponent($scope.query.email) + '&key=' + $scope.query.key;
+					var emailVerifyApi = '//api1.27hub.com/api/a/v1?email=' + encodeURIComponent($scope.query.email) + '&key=' + $scope.query.key;
 					console.log(emailVerifyApi);
 					$http.get(emailVerifyApi)
 						.success(function (response) {

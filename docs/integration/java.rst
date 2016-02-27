@@ -5,7 +5,7 @@ Java
 	/*
 	*******************************************************************************************
 	* Company:
-	* (c) 2014, email-checker.com (https://www.email-checker.com)
+	* (c) 2016, email-checker.com (https://www.emailhippo.com)
 	*
 	* File name:
 	* java.v1_key_acl
@@ -20,7 +20,7 @@ Java
 	* August 2014
 	*
 	* Description:
-	* Demonstrates how to call a RESTful service @ //api.emailverifyapi.com/api/a/v1
+	* Demonstrates how to call a RESTful service @ //api1.27hub.com/api/a/v1
 	* using java.
 	*
 	* This example requires a valid key to work correctly.
@@ -45,7 +45,7 @@ Java
 		/*
 		 * The URL which should be requested
 		 */
-		private static final String ApiUrl = "http://api.emailverifyapi.com/api/a/v1";
+		private static final String ApiUrl = "http://api1.27hub.com/api/a/v1";
 		
 		/*
 		 * Query string for request

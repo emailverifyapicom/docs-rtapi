@@ -1,5 +1,5 @@
-.. _email-checker.com: https://www.email-checker.com/email-checker-api/
-.. _request a trial key : https://www.email-checker.com/email-checker-api/#trial_key
+.. _emailhippo.com: https://www.emailhippo.com/en-US
+.. _request a trial key : https://www.emailhippo.com/en-US/verify-email-address/api/a
 
 Product Overview
 ================
@@ -28,10 +28,10 @@ Processing hard bounces means wasted time
 	
 Product Description
 -------------------
-`email-checker.com`_ offers data cleansing services specifically for email addresses. Offering a fully cloud based solution, 
-`email-checker.com`_ provides fast, reliable and accurate email verification.
+`emailhippo.com`_ offers data cleansing services specifically for email addresses. Offering a fully cloud based solution, 
+`emailhippo.com`_ provides fast, reliable and accurate email verification.
 
-With unrivalled coverage in all areas (including traditionally hard to verify email addresses such as Hotmail and Yahoo), `email-checker.com`_ is the natural choice for customers requiring good coverage in their applications for both :term:`B2B` and :term:`B2C` email addresses.
+With unrivalled coverage in all areas (including traditionally hard to verify email addresses such as Hotmail and Yahoo), `emailhippo.com`_ is the natural choice for customers requiring good coverage in their applications for both :term:`B2B` and :term:`B2C` email addresses.
 
 Possible Applications for Email Address Verification API
 --------------------------------------------------------
@@ -39,7 +39,7 @@ Possible Applications for Email Address Verification API
  * For e-commerce checkouts, make sure customers receive their order notifications by preventing invalid emails from being entered.
  * If your call centre takes email addresses as part of the customer contact data, real-time verification can greatly reduce the amount of incorrectly keyed emailed addresses.
  * For software vendors where email addresses are captured as part of the on-boarding process, integrate full email verification as a value-add for your service.
- * With `email-checker.com`_, there is no need any more to take incorrect email addresses and wait for them to bounce!
+ * With `emailhippo.com`_, there is no need any more to take incorrect email addresses and wait for them to bounce!
  
 How To Get Started
 ------------------

@@ -1,4 +1,4 @@
-.. _email-checker.com: https://www.email-checker.com/email-checker-api/
+.. _emailhippo.com: https://www.emailhippo.com/en-US/
 
 Features
 ========
@@ -11,11 +11,11 @@ multiple data centers in multiple regions deliver enterprise grade resilience.
 
 Fanatical Service Quality Management (SQM)
 ------------------------------------------
-`email-checker.com`_ operational staff obsessively monitor services to 
+`emailhippo.com`_ operational staff obsessively monitor services to 
 ensure the best possible uptime and coverage.
 
 Uptime and functional correctness is actively monitored on a minute by 
-minute basis from multiple data centers dispersed across North America and Europe.
+minute basis from multiple data centers dispersed across North America, Europe and South East Asia.
 
 Multi Factor Verification
 -------------------------
@@ -28,7 +28,7 @@ Progressive verification using multiple verification processes including:
 Unrivalled Coverage
 -------------------
 With more than 5 years experience and the benefit of owning our own 
-software stack, `email-checker.com`_ has refined its services over 
+software stack, `emailhippo.com`_ has refined its services over 
 the years to provide good coverage not only of the easier :term:`B2B` 
 domains but also the more technically tricky :term:`B2C` domains including:
 
@@ -40,7 +40,7 @@ domains but also the more technically tricky :term:`B2C` domains including:
 Unrivalled Integration
 ----------------------
 :term:`RESTful` endpoints integrate with pretty much anything these 
-days. `email-checker.com`_ not only supports server to server 
+days. `emailhippo.com`_ not only supports server to server 
 integration over REST but server to client integration with full 
 support for :term:`CORS`. :term:`CORS` is available in most modern 
 web browsers and allows rich, client side development using only 
@@ -51,7 +51,7 @@ range of languages including PHP, Java, .NET, jQuery and AngularJS).
 
 Spam Trap Detection
 -------------------
-After many years R&D, `email-checker.com`_ has developed various \"secret sauces\" 
+After many years R&D, `emailhippo.com`_ has developed various \"secret sauces\" 
 that can effectively detect and eliminate spam traps from several well known :term:`Block List`.
 
 Disposable Email Address Detection
@@ -85,9 +85,9 @@ feature to remove certain invalid characters such as spaces, slashes etc.
 
 Common Typo Handling
 --------------------
-`email-checker.com`_ also searches for common typos and suggest 
+`emailhippo.com`_ also searches for common typos and suggest 
 alternatives. E.g. jim99@hotmail.cm is more likely to be jim99@hotmail.com 
-so `email-checker.com`_ will validate what the user has entered, 
+so `emailhippo.com`_ will validate what the user has entered, 
 but provide you with the more likely alternative suggestion too.
 
 On Screen Reporting
@@ -97,13 +97,13 @@ view their current and historic usage via simple, user friendly donut charts.
 
 Thoughtful Versioning
 ---------------------
-Endpoints are \"versioned\". This means that `email-checker.com`_ 
+Endpoints are \"versioned\". This means that `emailhippo.com`_ 
 can continue to release new functionality without \"breaking\" 
 existing clients committed to integrating with our systems on legacy endpoints.
 
 What it does
 ------------
-`email-checker.com`_ is used to check email addresses in real-time. 
+`emailhippo.com`_ is used to check email addresses in real-time. 
 Not only are syntax and domain checked, but that the user mailbox 
 is available too. This is the only way to know for sure if an email address is valid.
 

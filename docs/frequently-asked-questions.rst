@@ -1,11 +1,11 @@
-.. _email-checker.com: https://www.email-checker.com/email-checker-api/
+.. _emailhippo.com: https://www.emailhippo.com/
 
 Frequently Asked Questions
 ==========================
 
 How can I get a key?
 --------------------
-`Click here <https://www.email-checker.com/email-checker-api/#trial_key>`_ to request a license key.
+`Click here <https://www.emailhippo.com/en-US>`_ to request a license key.
 
 How do I call the API?
 ----------------------
@@ -13,7 +13,7 @@ Make a simple GET request to the endpoint. For example, to query email address *
 
 ::
 	
-	https://api.emailverifyapi.com/api/a/v1?key=ABCD1234&email=anyone@yourdomain.com
+	https://api1.27hub.com/api/a/v1?key=ABCD1234&email=anyone@yourdomain.com
 
 	
 What comes back from the API?
@@ -50,7 +50,7 @@ Yes.
 
 Can it do Yahoo?
 ----------------
-Yes. Based on our own internal testing `email-checker.com`_ is currently the only email verification service to offer effective and repeatable coverage for Yahoo addresses.
+Yes. Based on our own internal testing `emailhippo.com`_ is currently the only email verification service to offer effective and repeatable coverage for Yahoo addresses.
 
 Can it do Yandex?
 -----------------
@@ -62,7 +62,7 @@ Partially.
 
 A :term:`Spam Trap` is a moving target. In theory (and indeed in practice) anyone can setup a :term:`Block List` and start putting spam traps into the wild.
 
-`email-checker.com`_ has :term:`Spam Trap` detection capabilities that covers several of the well known block lists. Whilst it is not possible to deliver 100% coverage of all spam traps from all block lists, `email-checker.com`_ provides the best :term:`Spam Trap` detection capabilities available.
+`emailhippo.com`_ has :term:`Spam Trap` detection capabilities that covers several of the well known block lists. Whilst it is not possible to deliver 100% coverage of all spam traps from all block lists, `emailhippo.com`_ provides the best :term:`Spam Trap` detection capabilities available.
 
 How does it work?
 -----------------
@@ -70,24 +70,24 @@ At a basic conceptual level, the process of verifying email addresses is very si
 
 The hard bit is dealing with mail services that are intrinsically configured to work against the process of email verification or any similar SMTP based activity. The reason that any email / :term:`SMTP` process is difficult from a client perspective is that mail services need to protect themselves from an ever increasing landscape of abuse including spam and :term:`DDoS` attacks.
 
-`email-checker.com`_'s strength in dealing with the \"hard bit\" of email verification comes from years of experience in doing email verification together with our complete ownership of our :term:`SMTP` verification software stack together with an extensive cloud based infrastructure. That's why `email-checker.com`_ can do the \"hard bits\" best and offer outstanding coverage on the more difficult domains such as Yahoo and Hotmail.
+`emailhippo.com`_'s strength in dealing with the \"hard bit\" of email verification comes from years of experience in doing email verification together with our complete ownership of our :term:`SMTP` verification software stack together with an extensive cloud based infrastructure. That's why `emailhippo.com`_ can do the \"hard bits\" best and offer outstanding coverage on the more difficult domains such as Yahoo and Hotmail.
 
 Can I get blacklisted using this API?
 -------------------------------------
-No. It's `email-checker.com`_ infrastructure that does the work.
+No. It's `emailhippo.com`_ infrastructure that does the work.
 
 Will anyone know that I am verifying their email address?
 ---------------------------------------------------------
-No. It's `email-checker.com`_ infrastructure that does the work.
+No. It's `emailhippo.com`_ infrastructure that does the work.
 
 Your service says an address is OK and I know it's Bad (or vice versa)?
 -----------------------------------------------------------------------
-`email-checker.com`_ queries mail servers in real time. Mail servers respond with one of 2 possible answers for a given email address:
+`emailhippo.com`_ queries mail servers in real time. Mail servers respond with one of 2 possible answers for a given email address:
 
  * Yes, the email address exists - SMTP code 2xx
  * No, the email address doe not exist - SMTP code 5xx
 
-`email-checker.com`_ uses the above response codes to determine if an email address is valid or not and reports this back to you.
+`emailhippo.com`_ uses the above response codes to determine if an email address is valid or not and reports this back to you.
 
 This method of determining email address validity works in >99% cases. However, nothing is guaranteed. In a small number of cases it is possible for a mail server to report one thing on email verification and do something different on trying to deliver an email to the email address verified.
 
@@ -142,7 +142,7 @@ Further inspection of the bounced email Non Delivery Report (NDR) headers show s
 
 
 The email header of the NDR shows that Hotmail thinks the email address is invalid as far as sending to this address is concerned. 
-However, Hotmail reports that the same email address is valid as far as the email verification activity performed by `email-checker.com`_.
+However, Hotmail reports that the same email address is valid as far as the email verification activity performed by `emailhippo.com`_.
 
 The discrepancy in verification results versus mail send is with the Hotmail infrastructure reporting one thing but doing the exact opposite. 
 This behaviour occasionally (particularly from Hotmail) is seen in a small amount of cases and is attributable to internal Hotmail (or other mail services) system anomalies.

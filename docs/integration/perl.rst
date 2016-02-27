@@ -5,7 +5,7 @@ PERL
 
     ###########################################################################################
     #   Company:
-    #   (c) 2014, email-checker.com (https://www.email-checker.com)
+    #   (c) 2016, emailhippo.com (https://www.emailhippo.com)
     #
     #   File name:
     #   Program.pl
@@ -20,7 +20,7 @@ PERL
     #   August 2014
     #
     #   Description:
-    #   Demonstrates how to call a RESTful service @ //api.emailverifyapi.com/api/a/v1
+    #   Demonstrates how to call a RESTful service @ //api.27hub.com/api/a/v1
     #   using Perl using client side only calls.
     #
     #   This example requires a valid key to work correctly.
@@ -31,7 +31,7 @@ PERL
 	use LWP;
 
 	# The url for the service
-	$ApiUrl = "http://api.emailverifyapi.com/api/a/v1";
+	$ApiUrl = "http://api1.27hub.com/api/a/v1";
 
 	# The format  of the full query string
 	$QueryFormatString = "%s?email=%s&key=%s";

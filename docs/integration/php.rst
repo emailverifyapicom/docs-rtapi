@@ -5,7 +5,7 @@ PHP
 	<?php
  
 	// URL which should be requested
-	$url = 'http://api.emailverifyapi.com/api/a/v1';
+	$url = 'http://api1.27hub.com/api/a/v1';
 	 
 	$apikey = 'YOUR API KEY'; // API Key
 	 
